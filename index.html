@@ -41,29 +41,7 @@
 <div id="content" data-customize="true" data-customtheme="true" class="default-bg">
 <div class="main-index">
 <div class="container content-box">
-	<section class="sousuo">
-	  <div class="search">
-		<div class="search-box">
-		  <img class="search-icon" src="/logo.jpg">
-		  <input type="text" id="txt" class="search-input" placeholder="在这里输入要搜索的内容">
-		  <button class="search-btn visible-sm visible-md visible-lg" id="search-btn">搜索</button>
-		  <i class="search-clear icon icon-remove-sign" style="display: none;"></i>
-		</div>
-		<!-- 搜索热词 -->
-		<div class="box search-hot-text" id="box" style="display: none;">
-		  <ul></ul>
-		</div>
-		<!-- 搜索引擎 -->
-		<div class="search-engine" style="display: none;">
-		  <div class="search-engine-head">
-			<strong class="search-engine-tit">选择默认搜索引擎：</strong>
-			<div class="search-engine-tool">搜索热词： <span id="hot-btn" class="off"></span></div>
-		  </div>
-		  <ul class="search-engine-list">
-		  </ul>
-		</div>
-	  </div>
-	</section>
+
 		<!-- 导航 -->
 		<div class="row dh">
 		<div class="col-sm-6 col-md-4 mb-3 dh">
@@ -232,7 +210,34 @@
                                 微信号：w15219407427 
                                 电子邮箱：admin@yz838.com</font><br><br>
                                 <img src="/yyzz.jpg" width="100%" alt="营业执照"><br>
-                                </div>		
+                                </div>
+
+                             <!-- 搜索 -->
+	             <section class="sousuo">
+	             <div class="search">
+                                 <form action="http://www.baidu.com/s" type="get" target="_blank">
+		 <div class="search-box">
+		  <img class="search-icon" src="/logo.jpg">
+		  <input type="text" id="txt" class="search-input" placeholder="在这里输入要搜索的内容">
+		  <button class="search-btn visible-sm visible-md visible-lg" id="search-btn">搜索</button>
+		  <i class="search-clear icon icon-remove-sign" style="display: none;"></i>
+		</div></form>
+		<!-- 搜索热词 -->
+		<div class="box search-hot-text" id="box" style="display: none;">
+		  <ul></ul>
+		</div>
+		<!-- 搜索引擎 -->
+		<div class="search-engine" style="display: none;">
+		<div class="search-engine-head">
+		<strong class="search-engine-tit">选择默认搜索引擎：</strong>
+		<div class="search-engine-tool">搜索热词： <span id="hot-btn" class="off"></span></div>
+		</div>
+		<ul class="search-engine-list">
+		</ul>
+		</div>
+	                </div>
+	                </section>
+		
 </div>
 </div>
 </div>
